@@ -74,18 +74,18 @@ const App = () => {
             </button>
           </form>
 
-          {error && <p>{error}</p>}
+          {error && <p className="error">{error}</p>}
         </div>
       )}
 
-      {loading && <p>Loading post office data...</p>}
+      {loading && <p className="loading">Loading post office data...</p>}
 
       {data.length > 0 && (
         <div>
           <div className="results">
             <h3>Pincode: {pin}</h3>
             <h3>
-              Message:<span>{message}</span>
+              Message: <span>{message}</span>
             </h3>
 
             <input

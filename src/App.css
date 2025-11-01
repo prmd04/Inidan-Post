@@ -60,3 +60,12 @@ form button:hover {
   box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15);
   transform: translateY(-3px);
 }
+.error {
+  color: red;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.loading{
+  margin-left: 5px;
+  margin-top: 10px;
+}
